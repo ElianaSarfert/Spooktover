@@ -35,6 +35,7 @@ directories/dch_directory={
 "Smith": "res://Characters/Smith.dch"
 }
 directories/dtl_directory={
+"DiningRoomInitial": "res://TimeLines/DiningRoomInitial.dtl",
 "MainCharacterCabin": "res://TimeLines/MainCharacterCabin.dtl",
 "SmithCabin": "res://TimeLines/SmithCabin.dtl",
 "diningroomchoice2": "res://TimeLines/diningroomchoice2.dtl",
