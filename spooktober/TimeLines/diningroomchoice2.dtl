@@ -1,0 +1,25 @@
+[background arg="res://Assets/Sprites/Placeholders/Speisesaal-Gesamtansicht-Hotel-Angereralm-Hochgurgl.jpg" fade="0.0"]
+MainCharacter: Did you notice anything unusual? Also, could you tell me a bit about the cook and the mechanic?
+if {Chosen} == "Putzkraft":
+	Putzkraft: There is one thing that seemed strange to me. Shortly before the announcement that Mr. Smith was missing, I heard someone open the door to the old storage room. It isn’t used anymore because it has smelled terrible ever since a pipe broke in there.
+if {Chosen} == "Servicekraft":
+	Servicekraft: I can’t stand Mr. Leyendecker. He has such a short temper and is so rude to everyone. I swear, I think he was born angry. Sorry, I just had to vent a little.\
+	Unfortunately, I was so busy in the kitchen that I didn’t notice anything else.
+if {Chosen} == "Betrunkener":
+	Betrunkener: Ms. Spencer, the mechanic, was incredibly kind to me. She showed me around the engine room and even explained how everything was built and how it all works together. I’ve always had a fascination with ships, so I could barely contain my excitement. I probably asked far too many questions, but she didn’t seem to mind at all.
+if {Chosen} == "Müde Dame":
+	"Müde Dame": The food is so good here, and the staff are really nice. The cook seems a bit temperamental, though, but his food is phenomenal.
+if {Chosen} == "Auszubildender":
+	Auszubildend: Ms. Spencer is such a great boss. She gives me a lot of freedom in how I do my work and trusts me to handle things my own way. It makes the job much more enjoyable, and I really appreciate that she doesn’t constantly look over my shoulder.
+- {DiningroomChoice1_1}
+	[signal arg="{DiningroomChoice1_1}"]
+	jump diningroomchoice3/
+- {DiningroomChoice1_2}
+	[signal arg="{DiningroomChoice1_2}"]
+	jump diningroomchoice3/
+- {DiningroomChoice1_3}
+	[signal arg="{DiningroomChoice1_3}"]
+	jump diningroomchoice3/
+- {DiningroomChoice1_4}
+	[signal arg="{DiningroomChoice1_4}"]
+	jump diningroomchoice3/
