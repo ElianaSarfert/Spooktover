@@ -4,9 +4,3 @@
 
 [node name="Kapitel2" type="Node" unique_id=1975964575]
 script = ExtResource("1_ud0fl")
-
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1280526823]
-
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1387627498]
-offset_right = 812.0
-offset_bottom = 462.0
