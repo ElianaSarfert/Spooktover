@@ -1,0 +1,11 @@
+[background fade="0.0"]
+join MainCharacter center
+MainCharacter: Strange – the door was open. Strange – the door was open.
+MainCharacter: Hey Smith, you’re missing – get out of bed
+MainCharacter: They’re actually looking for you now, and here you are, completely at peace...
+MainCharacter: Oh, the bed is empty. Just the crumpled blanket
+MainCharacter: The cabin looks empty
+MainCharacter: Smith’s got quite a mess on his hands here, though
+MainCharacter: What are these notes doing here?
+- View the notes
+	[signal]

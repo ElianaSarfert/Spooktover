@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Spooktober"
-run/main_scene="uid://dj6wlew4olssk"
+run/main_scene="uid://ch7oa6u0fc5a4"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -34,13 +34,16 @@ directories/dch_directory={
 "Smith": "res://Characters/Smith.dch"
 }
 directories/dtl_directory={
-"testtimeline1": "res://TimeLines/testtimeline1.dtl",
+"MainCharacterCabin": "res://TimeLines/MainCharacterCabin.dtl",
+"SmithCabin": "res://TimeLines/SmithCabin.dtl",
 "testtimeline2": "res://TimeLines/testtimeline2.dtl"
 }
 layout/style_directory={}
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 

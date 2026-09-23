@@ -1,0 +1,11 @@
+[background fade="0.0"]
+join MainCharacter center
+join Kapitän center
+Kapitän: An announcement\: Passenger Robert Smith is missing.
+Kapitän: I repeat\: the passenger Robert Smith is missing.
+MainCharacter: It’s the middle of the night – what on earth is going on? I was just sleeping peacefully
+Kapitän: I repeat\: Passenger Robert Smith is missing. Anyone who has seen Smith in the last few hours is asked to report to the captain.
+MainCharacter: I spoke to Smith just before I went to bed. He can’t actually be far away.
+MainCharacter: I should pop round to his cabin
+- Leave the cubicle
+	jump SmithCabin/
