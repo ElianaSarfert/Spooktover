@@ -34,11 +34,27 @@ directories/dch_directory={
 "Smith": "res://Characters/Smith.dch"
 }
 directories/dtl_directory={
+"diningroomchoice2": "res://TimeLines/diningroomchoice2.dtl",
+"diningroomchoice3": "res://TimeLines/diningroomchoice3.dtl",
+"diningroomfinal": "res://TimeLines/diningroomfinal.dtl",
+"diningroominitial": "res://TimeLines/DiningRoomInitial.dtl",
 "MainCharacterCabin": "res://TimeLines/MainCharacterCabin.dtl",
-"SmithCabin": "res://TimeLines/SmithCabin.dtl",
-"testtimeline2": "res://TimeLines/testtimeline2.dtl"
+"SmithCabin": "res://TimeLines/SmithCabin.dtl"
 }
 layout/style_directory={}
+variables={
+"Chosen": "",
+"DiningroomChoice1_1": "",
+"DiningroomChoice1_2": "",
+"DiningroomChoice1_3": "",
+"DiningroomChoice1_4": "",
+"DiningroomChoice2_1": "",
+"DiningroomChoice2_2": "",
+"DiningroomChoice2_3": ""
+}
+layout/style_list=[]
+layout/default_style="Default"
+glossary/default_case_sensitive=true
 
 [display]
 

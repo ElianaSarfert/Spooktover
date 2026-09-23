@@ -1,0 +1,17 @@
+[background arg="res://Assets/Sprites/Placeholders/Speisesaal-Gesamtansicht-Hotel-Angereralm-Hochgurgl.jpg" fade="0.0"]
+MainCharacter: There are some people here that i can talk to. [n] But i don't have that much time! [n]  I have to choose the right persons to talk to.
+- Putzkraft
+	[signal arg="Putzkraft"]
+	jump diningroomchoice2/
+- Betrunkener
+	[signal arg="Betrunkener"]
+	jump diningroomchoice2/
+- Auszubildender
+	[signal arg="Auszubildender"]
+	jump diningroomchoice2/
+- Servicekraft
+	[signal arg="Servicekraft"]
+	jump diningroomchoice2/
+- Müde Dame
+	[signal arg="Müde Dame"]
+	jump diningroomchoice2/
