@@ -13,12 +13,7 @@ script = ExtResource("1_7555m")
 tile_set = SubResource("TileSet_ydt8v")
 
 [node name="Note" parent="." unique_id=1469649940 instance=ExtResource("2_maoqn")]
-position = Vector2(387, 309.99997)
-scale = Vector2(4.2800016, 2.5999997)
+position = Vector2(489, 348)
 
-[node name="Note2" parent="." unique_id=1073589580 instance=ExtResource("2_maoqn")]
-position = Vector2(1349.9999, 505)
-scale = Vector2(3.2800004, 2.04)
-
-[connection signal="input_event" from="Note" to="." method="_on_note_input_event"]
-[connection signal="input_event" from="Note2" to="." method="_on_note_input_event"]
+[node name="Note2" parent="." unique_id=398538045 instance=ExtResource("2_maoqn")]
+position = Vector2(489, 348)
