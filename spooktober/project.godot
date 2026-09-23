@@ -35,12 +35,12 @@ directories/dch_directory={
 "Smith": "res://Characters/Smith.dch"
 }
 directories/dtl_directory={
+"MainCharacterCabin": "res://TimeLines/MainCharacterCabin.dtl",
+"SmithCabin": "res://TimeLines/SmithCabin.dtl",
 "diningroomchoice2": "res://TimeLines/diningroomchoice2.dtl",
 "diningroomchoice3": "res://TimeLines/diningroomchoice3.dtl",
 "diningroomfinal": "res://TimeLines/diningroomfinal.dtl",
-"diningroominitial": "res://TimeLines/DiningRoomInitial.dtl",
-"MainCharacterCabin": "res://TimeLines/MainCharacterCabin.dtl",
-"SmithCabin": "res://TimeLines/SmithCabin.dtl"
+"diningroominitial": "res://TimeLines/diningroominitial.dtl"
 }
 layout/style_directory={}
 variables={

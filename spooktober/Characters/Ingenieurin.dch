@@ -10,12 +10,22 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "Neutral",
 &"description": "",
-&"display_name": "Ingenieurin",
+&"display_name": "Ms. Spencer",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"Neutral": {
+"export_overrides": {
+"image": "\"res://Assets/Sprites/ingenieur.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }
