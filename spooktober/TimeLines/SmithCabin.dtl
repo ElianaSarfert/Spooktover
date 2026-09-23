@@ -8,4 +8,4 @@ MainCharacter: The cabin looks empty
 MainCharacter: Smith’s got quite a mess on his hands here, though
 MainCharacter: What are these notes doing here?
 - View the notes
-	[signal]
+	[signal arg="_on_view_notes"]

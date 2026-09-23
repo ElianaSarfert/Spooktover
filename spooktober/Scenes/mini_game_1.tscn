@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bwm8o2ev6c5x7"]
+
+[ext_resource type="Script" uid="uid://dc0knhbipeber" path="res://Scripts/mini_game_1.gd" id="1_7555m"]
+[ext_resource type="PackedScene" uid="uid://s8elbf7oysno" path="res://Scenes/note.tscn" id="2_maoqn"]
+
+[sub_resource type="TileSet" id="TileSet_ydt8v"]
+tile_size = Vector2i(64, 64)
+
+[node name="MiniGame1" type="Node2D" unique_id=2014734883]
+script = ExtResource("1_7555m")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1947305363]
+tile_set = SubResource("TileSet_ydt8v")
+
+[node name="Note" parent="." unique_id=1469649940 instance=ExtResource("2_maoqn")]
+position = Vector2(387, 309.99997)
+scale = Vector2(4.2800016, 2.5999997)
+
+[node name="Note2" parent="." unique_id=1073589580 instance=ExtResource("2_maoqn")]
+position = Vector2(1349.9999, 505)
+scale = Vector2(3.2800004, 2.04)
+
+[connection signal="input_event" from="Note" to="." method="_on_note_input_event"]
+[connection signal="input_event" from="Note2" to="." method="_on_note_input_event"]
